@@ -4,7 +4,7 @@
   </br>
 </p>
 
-# `Example - Plugin React Native PushLink`
+# Example - Plugin React Native PushLink
 
 ## `Plugin PushLink - React Native`
 
