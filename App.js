@@ -52,7 +52,7 @@ export default class App extends Component {
     this.setState({currentStrategy: currentStrategy});
   };
 
-  reciverEventListenerCustom(data) {
+  async reciverEventListenerCustom(data) {
     console.log('_reciverEventListener CUSTOM', data);
     countReciverEventListenerCustom++;
     PushLink.toastMessage(
