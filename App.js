@@ -58,6 +58,9 @@ export default class App extends Component {
     PushLink.toastMessage(
       'call reciverEventListenerCustom: ' + countReciverEventListenerCustom,
     );
+
+    // Open modal user interaction or silent install...
+    //const install = await PushLink.installApk().catch((e) => e);
   }
 
   selectStrategy = async () => {

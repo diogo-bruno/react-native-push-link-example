@@ -1,14 +1,21 @@
+# Example - Plugin React Native PushLink
+
 <p align="center">
   <img src="https://pushlink.com/javax.faces.resource/images/site/logo-verde.png.xhtml?ln=pushlink" height='130' />
   </br>
   </br>
 </p>
 
-# Example - Plugin React Native PushLink
+## <a href="https://github.com/diogo-bruno/react-native-push-link">`React Native - PushLink`</a>
 
-## `Plugin PushLink - React Native`
+---
 
-<https://github.com/diogo-bruno/react-native-push-link/>
+<p align="center">
+<br>
+ ScreenShot Example Application
+<br><br>
+<img src="https://user-images.githubusercontent.com/11491923/110528809-4eaa6780-80f7-11eb-9525-2dbeb93238e5.png" width="350" />
+</p>
 
 ---
 
@@ -36,16 +43,9 @@ componentDidMount = () => {
 
   const pushLinkStarted = await PushLink.start(PUSH_LINK_API_KEY, deviceId).catch((e) => e);
 
-  const strategyCustom = await PushLink.setStrategyCustom(
-    { TypeBroadcastReceiver: 'APPLY' },
-    (responseBroadcast) => {
-      console.log(responseBroadcast);
-      // new APK for install...
-
-      // Open modal user interaction or silent install...
-      const install = await PushLink.installApk().catch((e) => e);
-    },
-  ).catch((e) => e);
-
 };
 ```
+
+<a target="_blank" href="https://github.com/diogo-bruno/react-native-push-link-example/blob/master/App.js">Open file Application: <b>App.js</b></a>
+
+---

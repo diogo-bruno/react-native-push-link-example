@@ -5739,7 +5739,7 @@ react-native-picker-select@^8.0.4:
 
 "react-native-push-link@https://github.com/diogo-bruno/react-native-push-link":
   version "1.0.0"
-  resolved "https://github.com/diogo-bruno/react-native-push-link#f811b3ff466036ea4cfce99fb87d70920347341c"
+  resolved "https://github.com/diogo-bruno/react-native-push-link#9fc14910d12a866f4d281632ef8ae1dc489d57c0"
   dependencies:
     "@prettier/plugin-xml" "^0.13.0"
     axios "^0.21.1"
